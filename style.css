@@ -16,6 +16,10 @@ body {
 
 nav {
     text-align: center;
+    /*
+    position: sticky;
+    top: 5px;
+    */
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     text-shadow: 5px 5px 20px rgb(96, 206, 242);
     padding: 20px;
@@ -31,6 +35,7 @@ nav {
 }
 
 nav ul li {
+    font-size: large;
     margin: 5px 25px 5px 25px;
     display: inline-block;
     color: white;
@@ -67,4 +72,19 @@ a:hover {
 a:active {
     color:rgb(96, 206, 242);
     font-style: italic;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    color: white;
 }
