@@ -94,17 +94,18 @@ p {
     body {
       background-color: lightblue;
     }
-  }
+}
 
 @media only screen and (max-width: 768px) {
     body {
       background-color: lightgreen;
     }
-  }
+}
 
 @media only screen and (max-width: 1024px) {
     body {
         max-width: 50%;
     }
+}
 */
-  }
+
