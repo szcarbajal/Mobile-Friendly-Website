@@ -74,17 +74,6 @@ a:active {
     font-style: italic;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 p {
     color: white;
 }
@@ -108,4 +97,18 @@ p {
     }
 }
 */
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 400px;
+    margin: 10px;
+    font: 20px impact;
+}
 
