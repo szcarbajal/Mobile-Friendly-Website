@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: -webkit-linear-gradient(lightblue, black);
+    background-image: -webkit-linear-gradient(lightblue 50%, teal);
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,18 +16,11 @@ body {
 
 nav {
     text-align: center;
-    /*
-    position: sticky;
-    top: 5px;
-    */
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     text-shadow: 5px 5px 20px rgb(96, 206, 242);
-    padding: 20px;
-    margin: 5px 30px 5px 30px;
+    padding: 30px;
+    margin: 20px 30px 20px 30px;
     background-color: black;
-    /*
-    border: solid 5px rgb(42, 42, 255);
-    */
     border-start-start-radius: 80%;
     border-end-end-radius: 80%;
     border-top-right-radius: 20%;
@@ -36,7 +29,7 @@ nav {
 
 nav ul li {
     font-size: large;
-    margin: 5px 25px 5px 25px;
+    margin: 10px 25px 10px 25px;
     display: inline-block;
     color: white;
 }
@@ -53,7 +46,7 @@ header {
     font-size: 70px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
-    text-shadow: 5px 5px 20px rgb(96, 206, 242);
+    text-shadow: 5px 5px 20px black;
 }
 
 a:link {
@@ -106,12 +99,15 @@ p {
 .flex-container > div {
     text-align: center;
     border-radius: 50px;
+    /*
     background-color: lightblue;
+    */
     color: black;
     width: 600px;
-    padding: 40px;
+    padding: 30px;
     margin: 10px;
     font: 20px impact;
+    flex-wrap: wrap;
 }
 
 .flex-footer {
