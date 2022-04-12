@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-image: -webkit-linear-gradient(blue, black);
+    background-image: -webkit-linear-gradient(lightblue, black);
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -43,14 +43,14 @@ nav ul li {
 
 header {
     text-align: center;
-    padding: 60px;
+    padding: 40px;
     margin: 50px 130px 50px 130px;
     /*
     background-image: -webkit-radial-gradient(black 55%,rgb(96, 206, 242));
     border: solid 1px rgb(96, 206, 242);
     */
     border-radius: 40%;
-    font-size: 50px;
+    font-size: 70px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: white;
     text-shadow: 5px 5px 20px rgb(96, 206, 242);
@@ -100,15 +100,39 @@ p {
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .flex-container > div {
     text-align: center;
-    background-color: white;
+    border-radius: 50px;
+    background-color: lightblue;
     color: black;
-    width: 400px;
+    width: 600px;
+    padding: 40px;
     margin: 10px;
     font: 20px impact;
 }
 
+.flex-footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    border-top: .25px solid white;
+    position: relative;
+    bottom: 0;
+}
+
+.flex-footer > div {
+    font: 10px helvetia white;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+#copyright {
+    text-align: left;
+    font: 10px;
+}
