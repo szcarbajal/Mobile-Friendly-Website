@@ -105,7 +105,7 @@ p {
     color: black;
     width: 600px;
     padding: 30px;
-    margin: 10px;
+    margin: 30px 10px 30px 10px;
     font: 20px impact;
     flex-wrap: wrap;
 }
