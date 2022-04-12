@@ -49,6 +49,11 @@ header {
     text-shadow: 5px 5px 20px black;
 }
 
+h1 {
+    text-align: center;
+    font-family: impact;
+}
+
 a:link {
     color: white;
 }
